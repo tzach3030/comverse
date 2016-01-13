@@ -1,0 +1,189 @@
+@media all and (min-width:0px) and (max-width: 809px){
+
+/***************************************
+General
+***************************************/
+
+html{
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.no-style-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.to-left{
+  	float: left;
+}
+
+.to-center{
+	text-align: center;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+/***************************************
+Header
+***************************************/
+
+header{
+	background-color: white;
+	width: 100%;
+}
+
+.logo, .items, .login, .input-search, .lab, .input-submit{
+  	display: none;
+ }
+
+ .logo-for-mobile{
+ 	position: absolute;
+ 	width: 100%;
+ }
+
+ /***************************************
+Nav Bar Button
+***************************************/
+
+ .nav-panel{
+ 	height: 100px;
+ }
+
+ .mobile-sub-nav, .input-mobile-search{
+ 	display: none;
+ }
+
+.mobile-nav {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #d9d9d9;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: rgb(235,233,234);
+}
+
+
+label:hover {
+	cursor: pointer;
+}
+
+.nav-icon{
+	width: 22px;
+	height: 18px;
+	background: url(../img/hamburger-icon.png);
+	margin-top: 11px;
+	margin-left: 9px;
+
+}
+
+.main-nav-mobile {
+	display: none;
+	list-style: none;
+	text-transform: uppercase;
+	font: 1.2rem "Open Sans";
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 1;
+	width: 100%;
+	padding: 0;
+}
+
+.main-nav-mobile ul {
+	list-style: none;
+	background: white;
+	padding: 0;
+}
+
+.main-nav-mobile li {
+	color: #333333;
+}
+
+.main-nav-mobile label {
+	width: 100%;
+	border-radius: 0;
+	background: url(../img/navCollapseArrowRight.png) no-repeat scroll 11px center, white;
+}
+
+.main-nav-mobile li a,
+.main-nav-mobile label {
+	background-color: white;
+	margin: 0;
+	padding: 0 30px;
+	height: 3.8rem;
+	text-transform: uppercase;
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: #585951;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #fff;
+	font: 1.4rem Arial;
+	text-decoration: none;
+	line-height: 3.8rem;
+}
+
+
+input[type="checkbox"]:checked ~ ul {
+	display: block;
+	top:47px;
+}
+
+/***************************************
+Search
+***************************************/
+
+.search-label {
+	border: 1px solid #d9d9d9;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	float: right;
+	background-color: rgb(235,233,234);
+	margin-right:  10px;
+	margin-top: 10px;
+}
+
+.search-icon{
+	background: url(../img/searchBtnMobile.png);
+	width: 21px;
+	height: 22px;
+	margin-top: 10px;
+	margin-left: 9px;
+}
+
+.mobile-search{
+	color: black;
+	width: 100%;
+	height: 35px;
+	margin-top: 65px;
+	position: absolute;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 1px solid #D1D1D1;
+	padding: 0 5px;
+}
+
+.search-form{
+	display: none;
+}
+
+#search-btn-mobile:checked ~ .search-form {
+	display: block;
+}
+
+}
