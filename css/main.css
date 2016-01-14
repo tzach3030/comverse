@@ -186,4 +186,168 @@ Search
 	display: block;
 }
 
+/***************************************
+Highlights
+***************************************/
+
+.slides {
+	background: url(../img/slide-bg-complexity.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: auto;
+}
+
+.mobile-content {
+	height: 20rem;
+	background-color: rgba(51,153,204,0.8);
+	margin-bottom: 1rem;
+}
+
+/***************************************
+Headers
+***************************************/
+
+.highlights-header h1{
+  	font-size: 2rem;
+  	font-weight: normal;
+  	color: white;
+  	font-family: Verdana, Geneva, sans-serif;
+  	width: 27rem;
+  	padding-left: 1.5rem;
+}
+
+.sub-header{
+	color: white;
+	font-size: 1.5rem;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 1.5rem;
+}
+
+/***************************************
+Learn More Button
+***************************************/
+
+.learm-more{
+  	font-size: 1.6rem;
+	text-decoration: none;
+  	text-transform: capitalize;
+	background: url(../img/btnArrow.png) right 10px center no-repeat;
+	background-color: rgb(51,153,204);
+	width:auto;
+  	line-height: 1.6;
+	padding-left: 1rem;
+  	padding-right: 4rem;;
+	border: none;
+	border-radius: 0.5rem;
+	color: white;
+  	display: inline-block;
+  	margin-bottom: 4rem;
+  	margin-left: 1.5rem;
+}
+
+.learm-more:hover{
+	background-color: rgb(23,164,234);
+}
+
+/***************************************
+Bullets
+***************************************/
+
+
+.bullet{
+  	display: none;
+}
+
+.mobile-bullet {
+  	width: 2.8rem;
+  	line-height: 2.8rem;
+  	font-size: 1.7rem;
+  	font-family: "Open Sans", sans-serif;
+	background-color: rgb(224,224,224);
+  	color: #565656;
+	border-radius: 2px;
+  	margin-right: 0.5rem;
+  	margin-bottom: 2.5rem;
+}
+
+.mobile-bullet:hover{
+  	background-color: #2e95ca;
+}
+
+/***************************************
+Cards
+***************************************/
+
+.color-cards {
+	padding:0;
+	list-style: none;
+}
+
+.card {
+	box-shadow: 0px 3px 3px 0px grey;
+	color: white;
+	display: inline-block;
+	opacity: 1;
+	padding: 5px 14px;
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+.card h3 {
+	font: 100 1.9rem "Open Sans";
+	text-transform: none;
+	height:120px;
+	padding:0;
+	margin:0;
+}
+
+.card-arrow {
+    height: 17px;
+    width: 11px;
+    right: 22px;
+    float: right;
+    position: relative;
+    background: url(../img/promotion-item-arrow.png) no-repeat;
+}
+
+.card a {
+	text-decoration: none;
+  	color: white;
+}
+
+.card-icon {
+	text-decoration: none;
+	color: white;
+	font-size: 1.6rem;
+}
+
+.card:hover .card-icon {
+	text-decoration: underline;
+}
+
+.orange {
+	background-color: #F46F16;
+}
+
+.pink {
+	background-color: #F63D97;
+}
+
+.green {
+	background-color: #6AC33C;
+}
+
+
+.card-icon:before {
+	content: " ";
+	background: url(../img/link-icon-image.png) no-repeat scroll left center;
+	float: left;
+	width: 30px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+.numbered-bullets{
+  	margin-left: 1.5rem;
+}
+
 }
