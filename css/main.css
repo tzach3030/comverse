@@ -350,4 +350,103 @@ Cards
   	margin-left: 1.5rem;
 }
 
+/***************************************
+Services
+***************************************/
+
+.do-for-you {
+	background: url(../img/weDoBG.png) repeat scroll 0 0 , radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
+	color: white;
+	height: 45rem;
+	box-shadow: inset 0 1px 3px 0 grey;
+}
+
+/**************************************
+Header
+**************************************/
+
+.do-for-you h1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform: uppercase;
+}
+
+/**************************************
+Service's Content
+**************************************/
+
+.our-solutions{
+  display: none;
+}
+
+.service-item {
+	width: 33.33%;
+	height: 15rem;
+}
+
+.service-name {
+	font-size: 1.4rem;
+	width: 80%;
+	text-align: center;
+}
+
+.Business {
+	background: transparent url(../img/solution_icon_biz-analitics.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Business:hover {
+	background: transparent url(../img/solution_icon_biz-analitics_hover.png) no-repeat center bottom;
+}
+
+.Digital {
+	background: transparent url(../img/solution_icon_diti-cx.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Digital:hover {
+	background: transparent url(../img/solution_icon_diti-cx_hover.png) no-repeat center bottom;
+}
+
+.Smart {
+	background: transparent url(../img/solution_icon_smart-money.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Smart:hover {
+	background: transparent url(../img/solution_icon_smart-money_hover.png) no-repeat center bottom;
+}
+
+.Optimization {
+	background: transparent url(../img/solution_icon_optimize-efficnt.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Optimization:hover {
+	background: transparent url(../img/solution_icon_optimize-efficnt_hover.png) no-repeat center bottom;
+}
+
+.Personalized {
+	background: transparent url(../img/solution_icon_personal.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Personalized:hover {
+	background: transparent url(../img/solution_icon_personal_hover.png) no-repeat center bottom;
+}
+
+.Transformation {
+	background: transparent url(../img/solution_icon_biz-transform.png) no-repeat center bottom;
+	height: 7rem;
+	margin-bottom: 1.5rem;
+}
+
+.Transformation:hover {
+	background: transparent url(../img/solution_icon_biz-transform_hover.png) no-repeat center bottom;
+}
+
 }
