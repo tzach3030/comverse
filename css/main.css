@@ -449,4 +449,142 @@ Service's Content
 	background: transparent url(../img/solution_icon_biz-transform_hover.png) no-repeat center bottom;
 }
 
+/**************************************
+Events
+**************************************/
+
+.events-at-comverse {
+	background: url(../img/news-and-events-bg.jpg) 50% no-repeat fixed;
+	background-size: cover;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
+	height: 82rem;
+	box-shadow: none;
+}
+
+/**************************************
+Header And Sub Headers
+**************************************/
+
+.events-at-comverse h1{
+	text-transform: uppercase;
+}
+
+.news-events-press-releases{
+	display: inline-block;
+	width: 100%;
+	font-size: 2rem;
+	margin-top: 0.3rem;
+	margin-left: 3px;
+}
+
+/**************************************
+Windows
+**************************************/
+
+.window{
+	font-size: 1.9rem;
+  	width: 100%;
+}
+
+.window-details{
+	background: rgba(255, 255, 255, 0.3);
+	height: 15rem;
+	border-radius: 3px;
+  	margin-bottom: 10px;
+}
+
+.window-details:hover{
+	background-color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
+/**************************************
+Window's Content
+**************************************/
+
+.window-details p{
+	color: black;
+  	padding: 2rem;
+  	font-size: 1.6rem;
+}
+
+.date {
+	width: 70px;
+	height: 100px;
+	background: rgb(51, 153, 204);
+	border-radius: 1px;
+	margin: 2rem;
+	box-shadow: 0 1px 4px 0 grey;
+  	color: white;
+}
+.day {
+	font-size: 3.5rem;
+	font-weight: bold;
+	border-bottom: 1px dotted;
+}
+
+.month {
+	text-transform: uppercase;
+	padding: 0.7rem;
+	font-size: 2rem;
+}
+
+/**************************************
+Links
+**************************************/
+
+.all-events-link {
+	display: block;
+	font: 100 1.5rem "Open Sans";
+	color: white;
+	text-decoration: none;
+	margin-bottom: 25px;
+}
+
+.in-the-news-icon {
+	background: url(../img/eventListIconNews.png) no-repeat;
+	width: 24px;
+	height: 19px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.in-the-news-icon:hover {
+	background: url(../img/eventListIconNews_hover.png);
+	width: 24px;
+	height: 19px;
+}
+
+.events-icon {
+	background: url(../img/eventListIconEvents.png) no-repeat;
+	width: 19px;
+	height: 22px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.events-icon:hover {
+	background: url(../img/eventListIconEvents_hover.png);
+	width: 19px;
+	height: 22px;
+}
+
+.press-releases-icon {
+	background: url(../img/eventListIconPress.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.press-releases-icon:hover {
+	background: url(../img/eventListIconPress_hover.png);
+	width: 22px;
+	height: 22px;
+}
+
 }
