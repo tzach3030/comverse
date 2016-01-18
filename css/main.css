@@ -855,4 +855,104 @@ Back-Top Button
 	margin-top: 57px;
 }
 
+/**************************************
+footer
+**************************************/
+
+.none, .copyright, .subs, .blog-posts{
+	display: none;
+}
+
+/**************************************
+Footer's Blocks
+**************************************/
+
+.footer-menu-item, .footer-item{
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	width: 100%;
+	height: 4rem;
+	color: white;
+	background-color: rgb(31,31,31);
+	box-shadow: 0 1px 3px 0 grey;
+	padding-left: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.link-deco{
+	text-decoration: none;
+	color: white;
+}
+
+/**************************************
+Icons
+**************************************/
+
+.footer-menu-item a{
+	float: right;
+	width: 22%;
+}
+
+.youtube{
+	background:url(../img/socialMenuIcon-youtube.png) no-repeat;
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.youtube:hover {
+	background: url(../img/socialMenuIcon-youtube_hover.png);
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.twitter{
+	background: url(../img/socialMenuIcon-twitter.png) no-repeat;
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.twitter:hover {
+	background: url(../img/socialMenuIcon-twitter_hover.png);
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.linkedin {
+	background: url(../img/socialMenuIcon-linkdin.png) no-repeat;
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+.linkedin:hover {
+	background: url(../img/socialMenuIcon-linkdin_hover.png);
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+/**************************************
+Mobile Copyright
+**************************************/
+
+.mobile-copyright{
+	font-size: 1.3rem;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+.mobile-copyright a{
+	text-decoration: none;
+	color: black;
+}
+
+/**************************************
+Select Language
+**************************************/
+
+.footer-language {
+    background-color: rgb(100,100,100);
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
 }
