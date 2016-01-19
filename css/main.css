@@ -1,3 +1,281 @@
+/***************************************
+Wide Version
+***************************************/
+
+@media all and (min-width:1004px){
+
+/***************************************
+General
+***************************************/
+
+html{
+	font-size: 62.5%;
+}
+
+.no-margin {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.no-style-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.to-left{
+	float: left;
+}
+
+.to-right{
+	float: right;
+}
+
+.to-center{
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 940px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+section {
+	box-shadow: 0 1px 3px 0 grey;
+	overflow: hidden;
+}
+
+.logo-for-mobile, .mobile-search, .search-label, .input-mobile-search, .lab, .mobile-navigation, .numbered-bullets, .mobile-footer, .mobile-copyright, .mobile-menu-items, #mobile-menu, #mobile-menu-icon, #mobile-search, #mobile-search-icon{
+	display: none;
+}
+
+/***************************************
+Header
+***************************************/
+
+header {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.3rem;
+	background-color: white;
+	padding: 0 0 10px 0;
+	box-shadow: 0 1px 3px 0 grey;
+	position: absolute;
+	width: 100%;
+}
+
+.logo{
+	margin-right: 45px;
+}
+
+/***************************************
+Nav Bar
+***************************************/
+
+.main-nav > li a {
+	color: #a0a0a0;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.main-nav > li > a {
+	border-top: 1px solid white;
+}
+
+.main-nav > li a:link,
+.main-nav > li a:visited {
+	color: #a0a0a0;
+}
+
+.main-nav > li a:hover,
+.main-nav > li a:active {
+	color: #2f95c8;
+}
+
+.sub-nav {
+	background: #FCFCFC;
+	box-shadow: 3px 3px 3px 0px grey;
+	display: none;
+	height: 290px;
+	left: 15%;
+	position: absolute;
+	top: 82px;
+	width: 920px;
+	z-index: 1;
+}
+
+.sub-nav-left {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:18px;
+	z-index: 1;
+}
+
+.sub-nav-right {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 240px;
+	top:18px;
+	z-index: 1;
+}
+
+.sub-nav-left li,
+.sub-nav-right li {
+	list-style: none;
+	display: none;
+}
+
+.sub-nav-left li a,
+.sub-nav-right li a {
+	text-align: left;
+	list-style: none;
+	width: 220px;
+	height: 20px;
+	padding: 1px 30px;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+
+.nav-divider {
+	background: url(../img/line_divider_video.png) repeat-y center center;
+	height: 240px;
+	width: 1px;
+	display: block;
+	position: absolute;
+	left: 520px;
+}
+
+.nav-img {
+	width: 300px;
+	height: 196px;
+	background: black;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	left:570px;
+	top:18px;
+}
+
+.img1-ebook {
+	background: url(../img/Megamenu_Your_Needs_eBook.jpg);
+}
+
+.img2-digital {
+	background: url(../img/megamenu_digital_lifestyle.jpg);
+}
+
+.img3-share {
+	background: url(../img/Megamenu_News_and_media.jpg);
+}
+
+.img4-numbers {
+	background: url(../img/Megamenu_About_Comverse_by_the_numbers.jpg);
+}
+
+.main-nav > li:hover .sub-nav-left li,
+.main-nav > li:hover .sub-nav-right li,
+.main-nav > li:hover .sub-nav,
+.main-nav > li:hover .nav-img {
+	display: block;
+}
+
+.main-nav > li:hover > a{
+	background: #FCFCFC;
+	border-top: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;
+	padding-bottom: 12px;
+}
+
+.main-nav > li:hover > a {
+	width: 118px;
+}
+
+.items{
+	text-transform: uppercase;
+	list-style-type: none;
+	width: auto;
+	background: white url(../img/divider.png) right center no-repeat;
+	padding: 0 10px 0 10px;
+	margin-top: 50px;
+}
+
+/***************************************
+Log In and Select Language
+***************************************/
+
+.login{
+	margin-top: -20px;
+}
+
+.login a:hover {
+	text-decoration: underline;
+}
+
+.language-menu{
+	width: 45px;
+	border: none;
+	color: #585951;
+
+}
+
+.login-menu-item{
+	font-size: 15px;
+	padding-left: 10px;
+	list-style-type: none;
+	background: white url(../img/divider.png) left center no-repeat;
+	outline: none;
+}
+
+header a:link, header a:visited{
+	text-decoration: none;
+	color: #585951;
+}
+
+/***************************************
+Search
+***************************************/
+
+.form-for-search {
+	border: 1px solid #d2d2d2;
+	border-radius: 6px;
+	margin-top: 32px;
+}
+
+.input-search {
+	width: 10.5rem;
+	border: none;
+	margin: 0 5px 0 5px;
+	border-radius: 6px;
+	background:  url(../img/divider.png) right center no-repeat;
+	outline: none;
+}
+
+.input-submit {
+	background: white url(../img/searchBtn.png) right center no-repeat;
+	border: none;
+	margin-right: 8px;
+	padding-top: 5px;
+	outline: none;
+	cursor: pointer;
+}
+
+}
+
+/***************************************
+Mobile Version
+***************************************/
+
 @media all and (min-width:0px) and (max-width: 809px){
 
 /***************************************
@@ -31,6 +309,11 @@ body{
 
 .bold-font {
 	font-weight: bold;
+}
+
+section {
+	box-shadow: 0 1px 3px 0 grey;
+	overflow: hidden;
 }
 
 /***************************************
@@ -470,6 +753,10 @@ Header And Sub Headers
 	text-transform: uppercase;
 }
 
+/**************************************
+Windows
+**************************************/
+
 .news-events-press-releases{
 	display: inline-block;
 	width: 100%;
@@ -477,10 +764,6 @@ Header And Sub Headers
 	margin-top: 0.3rem;
 	margin-left: 3px;
 }
-
-/**************************************
-Windows
-**************************************/
 
 .window{
 	font-size: 1.9rem;
