@@ -270,6 +270,156 @@ Search
 	cursor: pointer;
 }
 
+/***************************************
+Highlights
+***************************************/
+
+.slides {
+	background: url(../img/slide-bg-complexity.jpg) no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 80px;
+	height: 680px;
+}
+
+.highlights {
+	height: 330px;
+	padding: 10px 0 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+}
+
+/***************************************
+Headers
+***************************************/
+
+.highlights-header h1{
+  	font: 100 44px "Open Sans", sans-serif;
+  	font-weight: 100;
+  	color: white;
+  	width: 50rem;
+  	margin-top: 40px;
+}
+
+.sub-header{
+	color: white;
+	font-size: 2rem;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/***************************************
+Learn More Button
+***************************************/
+
+.learm-more{
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url(../img/btnArrow.png) right 10px center no-repeat;
+	background-color: rgb(51,153,204);
+	width: auto;
+  	line-height: 2;
+  	box-shadow: 0 1px 4px 0 grey;
+	padding-left:10px;
+  	padding-right:85px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+  	display: inline-block;
+  	margin-bottom: 20px;
+  	margin-top: 30px;
+}
+
+.learm-more:hover{
+	background-color: rgb(23,164,234);
+}
+
+/***************************************
+Bullets
+***************************************/
+
+.bullet {
+	width: 11px;
+	height: 11px;
+	background-color: #e0e0e0;
+	border-radius: 2px;
+	margin-right: 5px;
+	box-shadow: 0 1px 3px 0 grey;
+}
+
+.bullet:hover {
+	background-color: #2e95ca;
+}
+
+/***************************************
+Cards
+***************************************/
+
+ul.color-cards {
+	margin: 120px 0 0 0;
+	padding:0;
+	list-style: none;
+}
+
+.card {
+	border-radius: 8px;
+	box-shadow: 0px 3px 3px 0px grey;
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+	opacity: 0.9;
+	padding: 5px 14px;
+	width: 26.4rem;
+}
+
+.card a {
+	text-decoration: none;
+  	color: white;
+}
+
+.card:hover {
+	opacity: 1;
+}
+
+.card-icon {
+	text-decoration: none;
+	color: white;
+	font-size: 1.6rem;
+}
+
+.card:hover .card-icon {
+	text-decoration: underline;
+}
+
+.card h3 {
+	font: 100 2.4rem "Open Sans";
+	text-transform: none;
+	height:120px;
+	padding:0;
+	margin:0;
+}
+
+.orange {
+	background-color: #F46F16;
+}
+
+.pink {
+	background-color: #F63D97;
+}
+
+.green {
+	background-color: #6AC33C;
+}
+
+
+.card-icon:before {
+	content: " ";
+	background: url(../img/link-icon-image.png) no-repeat scroll left center;
+	float: left;
+	width: 30px;
+	height: 20px;
+	padding-right: 5px;
+}
+
 }
 
 /***************************************
