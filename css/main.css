@@ -684,6 +684,314 @@ Links
 	margin-right: 10px;
 }
 
+/**************************************
+Success Stories
+**************************************/
+
+.success-stories {
+	background: rgb(236, 236, 236);
+	height: 555px;
+}
+
+.column-for-mobile {
+	display: none;
+	width: 352px;
+	float: left;
+}
+
+/**************************************
+Header
+**************************************/
+
+.success-stories h1 {
+	color: rgb(86,86,86);
+	font:  100 50px "open-sans-light";
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+/**************************************
+First Second And Third Blocks 
+**************************************/
+
+.first-column, .second-column {
+	width: 352px;
+	float: left;
+}
+
+.third-column {
+	width: 22.4rem;
+	float: left;
+}
+
+/**************************************
+The Person Box
+**************************************/
+
+.box-wrapper {
+	position: relative;
+	width: 34.2rem;
+	height: 19rem;
+	background: white;
+	float:left;
+	overflow: hidden;
+}
+
+.box {
+	background: white;
+	color: grey;
+	width: 32.2rem;
+	height: 17rem;
+	padding: 1rem;
+	position: absolute;
+	display: inline-block;
+	transition: transform .7s;
+	top:0;
+	z-index: 2;
+}
+
+.box blockquote {
+	font-size: 1.9rem;
+	margin: 0 0 1.5rem 11rem;
+}
+
+.person-details {
+	border-top: 1px solid #e5e5e5;
+}
+
+.person-name {
+	font-size: 1.4rem;
+	color: #3195c9;
+	margin: 0.5rem 0;
+	float: left;
+}
+
+.person-role {
+	font-size: 1.4rem;
+	color: grey;
+	margin: 0;
+	float: left;
+	text-transform: none;
+	width: 16rem;
+}
+
+.person-logo {
+	height: 4.5rem;
+	width: 8rem;
+	float: right;
+	outline:none;
+	max-width: 100%;
+	margin: 0.5rem 0 0 0;
+}
+
+/**************************************
+Transitaion
+**************************************/
+
+.box-wrapper:hover .box {
+	-moz-transform: translateY(-190px);
+	-webkit-transform: translateY(-190px);
+	-ms-transform: translateY(-190px);
+	-o-transform: translateY(-190px);
+	transform: translateY(-190px);
+}
+
+/**************************************
+Text On Over
+**************************************/
+
+.text-on-hover {
+	font-size: 2rem;
+	background: #3aa6db;
+	color: #fff;
+	font: 200 "Open Sans", sans-serif;
+	padding: 1rem;
+	position: absolute;
+	width: 32.2rem;
+	height: 17rem;
+}
+
+.text-on-hover:before,
+.text-on-hover:after,
+.no-img-back-hover:before,
+.no-img-back-hover:after
+{
+	content: " ";
+	background: url(../img/quote-blue.png) no-repeat 50% 50%;
+	display: inline-block;
+	width: 28px;
+	height: 25px;
+}
+
+/**************************************
+No Img Box
+**************************************/
+
+.no-img {
+	background: white;
+	color: grey;
+	width: 22.4rem;
+	height: 19rem;
+	position: relative;
+}
+
+.no-img blockquote {
+	font-size: 1.9rem;
+	margin: 0 0 1.5rem 0.8rem;
+}
+
+.third-column .box {
+	width: 20.5rem;
+	height: 17rem;
+	padding: 1rem;
+}
+
+.no-img-back-hover {
+	font-size: 2rem;
+	background: #3aa6db;
+	color: #fff;
+	font:200 "Open Sans", sans-serif;
+	position: absolute;
+	width: 20.5rem;
+	height: 17rem;
+	padding: 1rem;
+}
+
+/**************************************
+Logo's Box
+**************************************/
+
+.logo-box-wrapper {
+	position: relative;
+	width: 10.7rem;
+	height: 9.4rem;
+	margin: 1rem 1rem 0 0;
+	float: left;
+	background: url(../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg) no-repeat center center;
+	overflow: hidden;
+}
+
+.logo-box {
+	background-color: white;
+	height: 9.4rem;
+	position: absolute;
+	width: 10.7rem;
+	top:0;
+	transition: transform .5s;
+}
+
+.logo-box-wrapper:last-child {
+	margin-right: 0;
+}
+
+.second-column .logo-box-wrapper {
+	margin: 0 1rem 1rem 0;
+}
+
+.back-logo {
+	height: 9.4rem;
+	position: absolute;
+	width: 10.7rem;
+}
+
+/**************************************
+Transitaion
+**************************************/
+
+.logo-box-wrapper:hover .logo-box {
+	-webkit-transform: translateY(-94px);
+	-moz-transform: translateY(-94px);
+	-ms-transform: translateY(-94px);
+	-o-transform: translateY(-94px);
+	transform: translateY(-94px);
+}
+
+/**************************************
+Logos
+**************************************/
+
+.wireless {
+	background: url(../img/cable_wireless_w100px_X_h42px2.jpg) no-repeat;
+}
+
+.jersey {
+	background: url(../img/Jersey_Telecom_w100px_X_h42px.jpg) no-repeat;
+}
+
+.multilinks {
+	background: url(../img/multilinks.jpg) no-repeat;
+}
+
+.mts {
+	background: url(../img/mts_w108px_X_h95px.jpg) no-repeat;
+}
+
+.tata-sky {
+	background: url(../img/Tata_Sky_w108px_X_h95px.jpg) no-repeat;
+}
+
+.upc {
+	background: url(../img/upc_w108px_X_h95px.jpg) no-repeat;
+}
+
+.telecom {
+	background: url(../img/MAX_telecom_w108px_X_h95.jpg) no-repeat;
+}
+
+.Kyivstarw {
+	background: url(../img/Kyivstarw_w108px_X_h95.jpg) no-repeat;
+}
+
+.videocon {
+	background: url(../img/VIDEOCON_w108px_X_h95px.jpg) no-repeat;
+}
+
+.mob {
+	background: url(../img/3mob_w108px_X_h95px.jpg) no-repeat;
+}
+
+.play {
+	background: url(../img/play_w108px_X_h95px.jpg) no-repeat;
+}
+
+/**************************************
+All Success Stories Button
+**************************************/
+
+.all-success-stories {
+	font-size: 18px;
+	font: "Open Sans", sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+	background: url(../img/btnArrow.png) right 10px center no-repeat;
+	background-color: rgb(51,153,204);
+	width: auto;
+  	line-height: 1.8;
+  	box-shadow: 0 3px 4px 0 grey;
+	padding-left:10px;
+  	padding-right:35px;
+  	margin-top: 45px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+  	display: inline-block;
+}
+
+.all-success-stories:hover {
+	background-color: rgb(23,164,234);
+}
+
+/**************************************
+Back Top Stories Button
+**************************************/
+
+#back-top{
+	margin-top: 7px;
+}
+
 }
 
 /***************************************
