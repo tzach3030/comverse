@@ -992,6 +992,181 @@ Back Top Stories Button
 	margin-top: 7px;
 }
 
+/**************************************
+footer
+**************************************/
+
+footer {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3rem;
+	height: 350px;
+	background-color: #2B2B2B;
+}
+
+/**************************************
+Sub Headers
+**************************************/
+
+.top-column{
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 1.6rem;
+	color: #6A6A6A;
+	margin-right: 3rem;
+}
+
+/**************************************
+Column Content
+**************************************/
+
+.deco{
+	text-decoration: none;
+	color: rgb(226,204,177);
+	margin-right: 3rem;
+}
+
+/**************************************
+Privat Policy
+**************************************/
+
+.privat-policy{
+	text-decoration: none;
+	color: rgb(113, 113, 113);
+}
+
+.privat-policy:hover, .deco:hover {
+	text-decoration: underline;
+}
+
+/**************************************
+Blog Posts
+**************************************/
+
+.blog-posts {
+	width: 26rem;
+	height: 350px;
+	background: rgba(221, 211, 203, 0.15);
+	color: white;
+}
+
+.blog-posts h1 {
+	text-align: center;
+	color: #4ea7d3;
+	text-transform: uppercase;
+	font-size: 1.7rem;
+	font-weight: bolder;
+}
+
+.blog-posts-content{
+	border-bottom: 1px solid rgb(106, 106, 106);
+	margin: 1rem;
+	padding-bottom: 10px;
+	font-size: 1.6rem;
+}
+
+.footer-date {
+	margin-right: 2rem;
+}
+
+.footer-day {
+	font-weight: bolder;
+	font-size: 3rem;
+	padding-bottom: 0;
+}
+
+.footer-month {
+	font-size: 2.5rem;
+	padding-top: 0;
+}
+
+.blog-posts-pra {
+	padding-top: 10px;
+}
+
+.subs {
+	margin: 2rem;
+}
+
+.form-for-subs {
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	background: white;
+}
+
+.subs-email {
+	width: 67%;
+	height: 26px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: none;
+	border-radius: 2px;
+	background: white;
+}
+
+.subs-submit {
+	background: rgb(53,166,223);
+	color: white;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	height: 26px;
+	width: 30%;
+}
+
+.social-icons{
+	font-size: 0px;
+	margin-top: 75px;
+	margin-right: 13px;
+}
+
+.youtube{
+	background:url(../img/socialMenuIcon-youtube.png);
+	width: 22px;
+	height: 22px;	
+}
+
+.youtube:hover {
+	background: url(../img/socialMenuIcon-youtube_hover.png);
+	width: 22px;
+	height: 22px;
+}
+
+.twitter{
+	background: url(../img/socialMenuIcon-twitter.png);
+	width: 22px;
+	height: 22px;
+}
+
+.twitter:hover {
+	background: url(../img/socialMenuIcon-twitter_hover.png);
+	width: 22px;
+	height: 22px;
+}
+
+.linkedin {
+	background: url(../img/socialMenuIcon-linkdin.png);
+	width: 22px;
+	height: 22px;
+}
+
+.linkedin:hover {
+	background: url(../img/socialMenuIcon-linkdin_hover.png);
+	width: 22px;
+	height: 22px;
+}
+
+/**************************************
+Copyright
+**************************************/
+
+.copyright {
+	display: block;
+	clear: left;
+	padding-top: 95px;
+	color: rgb(113, 113, 113);
+}
+
 }
 
 /***************************************
